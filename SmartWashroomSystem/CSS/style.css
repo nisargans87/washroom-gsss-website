@@ -1,0 +1,373 @@
+/* ===========================================================
+   GOOGLE FONT
+=========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===========================================================
+   GLOBAL
+=========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("../images/college-background.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+}
+
+.background-overlay{
+
+    min-height:100vh;
+
+    padding:30px 0;
+
+}
+
+/* ===========================================================
+   HEADER
+=========================================================== */
+
+.header-card{
+
+    background:#ffffff;
+
+    border-radius:22px !important;
+
+    height:120px;
+
+    padding:12px 25px;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+/* ===========================================================
+   LOGO
+=========================================================== */
+.college-logo{
+
+    width:70px;
+
+    height:70px;
+
+    object-fit:contain;
+
+    padding:4px;
+
+    border-radius:10px;
+
+    background:#ffffff;
+
+}
+
+/* ===========================================================
+   HEADING
+=========================================================== */
+
+.college-title{
+
+    color:#0d6efd;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.college-name{
+
+    font-size:24px;
+
+    font-weight:600;
+
+    color:#343a40;
+
+    margin-bottom:4px;
+
+}
+
+.college-place{
+
+    font-size:18px;
+
+    color:#6c757d;
+
+    margin-bottom:6px;
+
+}
+
+.header-description{
+
+    font-size:16px;
+
+    color:#555;
+
+}
+
+/* ===========================================================
+   WELCOME CARD
+=========================================================== */
+
+.landing-card{
+
+    border-radius:25px !important;
+
+    background:rgba(255,255,255,.96);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.20);
+
+}
+
+.landing-card h2{
+
+    font-size:38px;
+
+    font-weight:700;
+
+    color:#0d6efd;
+
+}
+
+.landing-card .lead{
+
+    font-size:18px;
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+/* ===========================================================
+   ICONS
+=========================================================== */
+
+.display-1{
+
+    font-size:70px;
+
+}
+
+.fs-1{
+
+    font-size:42px !important;
+
+}
+
+h6{
+
+    font-weight:600;
+
+    margin-top:15px;
+
+}
+
+/* ===========================================================
+   BUTTON
+=========================================================== */
+
+.btn-primary{
+
+    padding:14px 40px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    border-radius:12px;
+
+    transition:.35s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(13,110,253,.35);
+
+}
+
+/* ===========================================================
+   FOOTER
+=========================================================== */
+
+.footer-text{
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    margin-top:35px;
+
+    text-shadow:0 2px 5px rgba(0,0,0,.5);
+
+}
+
+/* ===========================================================
+   CARD ANIMATION
+=========================================================== */
+
+.header-card,
+.landing-card{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================================================
+   HORIZONTAL LINE
+=========================================================== */
+
+hr{
+
+    margin:30px 0;
+
+    opacity:.2;
+
+}
+
+/* ===========================================================
+   RESPONSIVE
+=========================================================== */
+
+@media(max-width:992px){
+
+.college-title{
+
+    font-size:34px;
+
+}
+
+.college-name{
+
+    font-size:20px;
+
+}
+
+}
+
+/* ===========================================================
+   MOBILE
+=========================================================== */
+
+@media(max-width:768px){
+
+.header-card{
+
+    text-align:center;
+
+}
+
+.college-logo{
+
+    width:75px;
+
+    height:75px;
+
+    margin-bottom:15px;
+
+}
+
+.college-title{
+
+    font-size:28px;
+
+}
+
+.college-name{
+
+    font-size:18px;
+
+}
+
+.college-place{
+
+    font-size:16px;
+
+}
+
+.header-description{
+
+    font-size:14px;
+
+}
+
+.landing-card{
+
+    margin-top:25px;
+
+}
+
+.landing-card .card-body{
+
+    padding:30px;
+
+}
+
+.display-1{
+
+    font-size:55px;
+
+}
+
+.fs-1{
+
+    font-size:34px !important;
+
+}
+
+.btn-primary{
+
+    width:100%;
+
+}
+
+.footer-text{
+
+    font-size:13px;
+
+}
+
+}

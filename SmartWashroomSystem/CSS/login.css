@@ -1,0 +1,147 @@
+/* ===========================
+   GENERAL PAGE
+=========================== */
+
+body{
+
+    margin:0;
+
+    padding:0;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    background:url("../images/college-bg.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    min-height:100vh;
+
+}
+
+/* ===========================
+   CENTER SCREEN
+=========================== */
+
+.login-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+
+}
+
+/* ===========================
+   LOGIN CARD
+=========================== */
+
+.login-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    box-shadow:0px 10px 35px rgba(0,0,0,.25);
+
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.logo{
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:contain;
+
+}
+
+/* ===========================
+   INPUTS
+=========================== */
+
+.form-control{
+
+    height:50px;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+
+    height:50px;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+/* ===========================
+   LINK
+=========================== */
+
+a{
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:576px){
+
+.login-card{
+
+padding:25px;
+
+}
+
+.logo{
+
+width:75px;
+
+height:75px;
+
+}
+
+h3{
+
+font-size:24px;
+
+}
+
+.btn{
+
+font-size:17px;
+
+}
+
+}

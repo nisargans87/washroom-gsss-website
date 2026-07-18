@@ -1,0 +1,51 @@
+body{
+
+    background:#f4f7fb;
+
+}
+
+.complaint-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    margin-bottom:18px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.complaint-card:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.status{
+
+    font-weight:bold;
+
+}
+
+.pending{
+
+    color:#dc3545;
+
+}
+
+.resolved{
+
+    color:#198754;
+
+}
+
+.view-btn{
+
+    width:100%;
+
+    border-radius:12px;
+
+}
